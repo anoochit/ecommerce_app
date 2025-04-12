@@ -37,7 +37,7 @@ A modern e-commerce mobile application built with Flutter. This app provides a s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ecommerce_app.git
+git clone https://github.com/anoochit/ecommerce_app.git
 ```
 
 2. Navigate to the project directory:
@@ -76,6 +76,7 @@ lib/
    - For best results, ensure the image has a transparent background
 
 2. Run the following commands:
+
 ```bash
 flutter pub get
 flutter pub run flutter_launcher_icons
