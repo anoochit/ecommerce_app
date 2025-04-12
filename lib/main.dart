@@ -6,6 +6,7 @@ import 'screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // TODO : Replace with your actual publishable key
   Stripe.publishableKey = 'your_publishable_key';
   runApp(MyApp());
 }
