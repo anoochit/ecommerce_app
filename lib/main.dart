@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => CartProvider(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'E-Commerce App',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: HomeScreen(),
