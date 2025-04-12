@@ -68,6 +68,23 @@ lib/
 └── services/    # API services
 ```
 
+## Updating App Icon
+
+1. Place your icon image in `assets/icons/app_icon.png`
+   - The image should be at least 1024x1024 pixels
+   - Use PNG format
+   - For best results, ensure the image has a transparent background
+
+2. Run the following commands:
+```bash
+flutter pub get
+flutter pub run flutter_launcher_icons
+```
+
+The icon will be automatically generated for all platforms (Android, iOS, Web, Windows, and macOS).
+
+Note: For iOS, make sure the icon doesn't have an alpha channel as it's not supported by Apple. The configuration automatically removes the alpha channel for iOS.
+
 ## GitHub Actions Configuration
 
 ### Android Signing Setup
